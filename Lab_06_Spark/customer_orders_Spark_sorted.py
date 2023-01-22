@@ -1,6 +1,6 @@
 from pyspark import SparkConf, SparkContext
 
-conf = SparkConf().setMaster("local").setAppName("customer_orders_Spark")
+conf = SparkConf().setMaster("local").setAppName("customer_orders_sorted_Spark")
 sc = SparkContext(conf = conf)
 
 def split_rows(row):
